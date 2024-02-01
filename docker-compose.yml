@@ -1,0 +1,10 @@
+services:
+  foundry:
+    build: 
+      dockerfile: Dockerfile
+      args:
+        - VERSION=latest
+    volumes:
+      - ./FoundryData:/dev/foundry/data
+    ports:
+      - 30000:30000
