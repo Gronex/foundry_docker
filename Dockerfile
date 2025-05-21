@@ -13,5 +13,6 @@ RUN /unzip-version.sh /versions "${VERSION}"
 FROM node:lts-alpine
 
 COPY --from=builder /app /app
+COPY entrypoint.sh /
 
-CMD [ "node", "/app/resources/app/main.js", "--dataPath=/dev/foundry/data" ]
+CMD [ "/entrypoint.sh" ]

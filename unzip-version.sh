@@ -82,3 +82,4 @@ fi
 echo "Using file '$file'";
 
 unzip "$file" -d "/app";
+echo "$VERSION" > "/app/VERSION";
