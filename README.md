@@ -68,10 +68,6 @@ This maps the FoundryVTT data directory to your host for persistence.
 - To use a different FoundryVTT version, add the corresponding zip file to the `versions` directory and specify the version during build.
 - Modify the `Dockerfile` to install additional dependencies if needed.
 
-## License
-
-This project is licensed under the MIT License.
-
 ---
 
 *For more information about FoundryVTT, visit the [official website](https://foundryvtt.com/).*
