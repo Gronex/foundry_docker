@@ -1,9 +1,6 @@
 services:
   foundry:
-    build: 
-      dockerfile: Dockerfile
-      args:
-        - VERSION=latest
+    image: localhost/foundry-vtt:${VERSION:-latest}
     volumes:
       - ./FoundryData:/dev/foundry/data
     ports:

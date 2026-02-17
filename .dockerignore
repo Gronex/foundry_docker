@@ -1,7 +1,2 @@
 # Ignore everything
-*
-
-# Allow versions
-!/versions
-!unzip-version.sh
-!entrypoint.sh
+FoundryData/
